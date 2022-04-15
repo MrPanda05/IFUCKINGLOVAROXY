@@ -1,24 +1,46 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
+import Header from './components/Header/Header';
+import Slides from './components/Slides/Slides';
+import Test from './screens/Test';
+import './index.css';
 
-function App() {
+type Roxy = {
+  text: string
+}
+
+interface Gay {
+  text: string
+}
+//Using interface
+const Teste:React.FC<Gay> = ({ text }) => {
+  return (
+    <div>
+      {text}
+    </div>
+  )
+}
+//Using type
+const Test2 = ({ text }: Roxy) => {
+  return (
+    <div>
+      {text}
+    </div>
+  )
+}
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Teste text={'123'}/>
+      <Test2 text='Gaywboser'/> */}
+      <Header />
+      <Slides />
+      <Routes>
+        <Route path='/test' element={<Test />} />
+      </Routes>
     </div>
   );
 }
