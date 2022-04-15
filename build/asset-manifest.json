@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0dd8ad27.css",
+    "main.js": "/static/js/main.b812b351.js",
+    "static/js/787.46da1226.chunk.js": "/static/js/787.46da1226.chunk.js",
+    "static/media/ROXY12.png": "/static/media/ROXY12.dfabe2c3975e56d8ae04.png",
+    "static/media/ROXY6.png": "/static/media/ROXY6.e86612f5eb350127f771.png",
+    "static/media/ROXY1.png": "/static/media/ROXY1.aa78e025f3fb5ad9722f.png",
+    "static/media/ROXY2.jpg": "/static/media/ROXY2.b5b5d4168435f851b062.jpg",
+    "static/media/ROXY4.jpg": "/static/media/ROXY4.7d7fc88aff585250098b.jpg",
+    "static/media/ROXY7.jpg": "/static/media/ROXY7.13a492faa235774b1b57.jpg",
+    "static/media/ROXY9.jpg": "/static/media/ROXY9.3b55f79a34f2d1f02ffa.jpg",
+    "static/media/ROXY3.jpg": "/static/media/ROXY3.4f10465682c193e2e13a.jpg",
+    "static/media/ROXY8.jpg": "/static/media/ROXY8.5eebdb6181b266b815a3.jpg",
+    "static/media/ROXY11.jpg": "/static/media/ROXY11.7a505bf6036995204fcc.jpg",
+    "static/media/ROXY10.jpg": "/static/media/ROXY10.0e633879a2ad4ddbdbef.jpg",
+    "static/media/ROXY5.jpg": "/static/media/ROXY5.ded3d77bec562e7bd06d.jpg",
+    "index.html": "/index.html",
+    "main.0dd8ad27.css.map": "/static/css/main.0dd8ad27.css.map",
+    "main.b812b351.js.map": "/static/js/main.b812b351.js.map",
+    "787.46da1226.chunk.js.map": "/static/js/787.46da1226.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dd8ad27.css",
+    "static/js/main.b812b351.js"
+  ]
+}
