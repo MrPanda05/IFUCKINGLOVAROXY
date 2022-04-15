@@ -7,6 +7,7 @@ import Header from './components/Header/Header';
 import Slides from './components/Slides/Slides';
 import Test from './screens/Test';
 import './index.css';
+import { Helmet } from 'react-helmet-async';
 
 type Roxy = {
   text: string
@@ -34,6 +35,11 @@ const Test2 = ({ text }: Roxy) => {
 const App = () => {
   return (
     <div className="App">
+      <div>
+        <Helmet>
+          <title>I love Roxy</title>
+        </Helmet>
+      </div>
       {/* <Teste text={'123'}/>
       <Test2 text='Gaywboser'/> */}
       <Header />
